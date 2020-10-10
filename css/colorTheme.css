@@ -1,0 +1,18 @@
+/* COLORES
+Fondo               #5a57f0
+Font                #8c94ab
+Boton activo        #26c281
+Boton inactivo      #e7faf4
+*/
+
+/* Extra small devices (phones, less than 768px) */
+@media (min-width: 400px) { ... }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
