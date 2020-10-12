@@ -11,6 +11,9 @@ function toggle(){
     if(btn_anually.classList.contains('inactive')){
         replace_class(btn_anually, btn_monthly, null, 'inactive');
         replace_class(card_annualy, card_monthly, 'row', 'hidden');
+    } else {
+        replace_class(btn_monthly, btn_anually, null, 'inactive');
+        replace_class(card_monthly, card_annualy, 'row', 'hidden');
     }
 }
 /* GENERAL FUNCTION TO REPLACE A CLASS */
