@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="fonts/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
     <title>TOBS - Pricing Toggle</title>
 </head>
@@ -22,13 +22,69 @@
             <div class="row">
                 <div class="container-buttons">
                     <div class="toggle-buttons">
-                        <button class="toggle">Monthly</button>
-                        <button class="toggle inactive">Annualy</button>
+                        <button class="toggle" id="monthly" onclick="toggle()">Monthly</button>
+                        <button class="toggle inactive" id="annualy" onclick="toggle()">Annualy</button>
                     </div>
                 </div>
             </div>
-            <!-- CARDS CONTENT -->
+            <!-- CARDS CONTENT MONTHLY-->
             <div class="row">
+                <div class="container-cards">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Basic</h3>
+                            <div class="container-icon">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <p class="price">$39</p>
+                        </div>
+                        <ul class="card-description">
+                            <li>1GB Diskspace</li>
+                            <li>10GB Bandwidth</li>
+                            <li>2 Email Adress</li>
+                            <li>WordPress Installs</li>
+                            <li>Private Support</li>
+                        </ul>
+                        <button class="btn-pill">Sing Up</button>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Premium</h3>
+                            <div class="container-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <p class="price">$49</p>
+                        </div>
+                        <ul class="card-description">
+                            <li>5GB Diskspace</li>
+                            <li>50GB Bandwidth</li>
+                            <li>4 Email Adress</li>
+                            <li>WordPress Installs</li>
+                            <li>Private Support</li>
+                        </ul>
+                        <button class="btn-pill">Sing Up</button>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Business</h3>
+                            <div class="container-icon">
+                                <i class="fas fa-city"></i>
+                            </div>
+                            <p class="price">$59</p>
+                        </div>
+                        <ul class="card-description">
+                            <li>20GB Diskspace</li>
+                            <li>100GB Bandwidth</li>
+                            <li>10 Email Adress</li>
+                            <li>WordPress Installs</li>
+                            <li>Private Support</li>
+                        </ul>
+                        <button class="btn-pill">Sing Up</button>
+                    </div>
+                </div>
+            </div>
+            <!-- CARDS CONTENT ANNUALY-->
+            <div class="hidden">
                 <div class="container-cards">
                     <div class="card">
                         <div class="card-header">
@@ -85,5 +141,6 @@
             </div>
         </div>
     </div>
+    <script src="js/toggler.js"></script>
 </body>
 </html>
