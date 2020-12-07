@@ -8,4 +8,5 @@ This comparative pricing component was done as a selection process for a job as 
 
 <h3>> Technologies</h3>
 
-Made with HTML5, CSS3 and Javascript.
+Made with HTML5, CSS3 and Javascript.<br>
+Watch -> https://pilifigueroa.github.io/pricing-toggle/
